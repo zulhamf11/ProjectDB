@@ -37,7 +37,7 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="./css/dashboards.css" rel="stylesheet">
+    <link href="./css/dashboardss.css" rel="stylesheet">
   </head>
 
  <body>
