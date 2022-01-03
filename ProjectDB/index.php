@@ -10,10 +10,10 @@ if(isset($_SESSION["uid"])){
 	<head>
 		<meta charset="UTF-8">
 		<title>Help UMKM</title>
-		<link rel="stylesheet" href="css/bootstraps.css"/>
+		<link rel="stylesheet" href="css/bootstrappp.css"/>
 		<script src="js/jquery2.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="main.js"></script>
+		<script src="mains.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<style></style>
 	</head>
@@ -39,20 +39,20 @@ if(isset($_SESSION["uid"])){
 			</ul>
 			<form class="navbar-form navbar-left">
 		        <div class="form-group">
-		          <input type="text" class="form-control" placeholder="Search" id="search">
+		          <input type="text" class="form-control" placeholder="Cari yang kamu butuhkan" id="search">
 		        </div>
 		        <button type="submit" class="btn btn-primary" id="search_btn"><span class="glyphicon glyphicon-search"></span></button>
 		     </form>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span>Cart<span class="badge">0</span></a>
+				<li><a href="cart.php" ><span class="glyphicon glyphicon-shopping-cart"></span>Cart<span class="badge">0</span></a>
 					<div class="dropdown-menu" style="width:400px;">
 						<div class="panel panel-success">
 							<div class="panel-heading">
 								<div class="row">
-									<div class="col-md-3">Sl.No</div>
+									<!-- <div class="col-md-3">Sl.No</div>
 									<div class="col-md-3">Product Image</div>
 									<div class="col-md-3">Product Name</div>
-									<div class="col-md-3">Price in <?php echo CURRENCY; ?></div>
+									<div class="col-md-3">Price in <?php echo CURRENCY; ?></div> -->
 								</div>
 							</div>
 							<div class="panel-body">

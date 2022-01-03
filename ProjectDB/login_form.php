@@ -23,7 +23,7 @@ if (isset($_POST["login_user_with_product"])) {
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<script src="js/jquery2.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="main.js"></script>
+		<script src="mains.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 <body>
